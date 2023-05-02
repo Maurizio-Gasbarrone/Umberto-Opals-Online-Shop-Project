@@ -16,3 +16,25 @@
     font-family: 'Roboto', sans-serif; /* copy and paste this command font-family: 'Roboto', sans-serif; from */
     /* Roboto-Google Font. this command is found under CSS rules to specify familes under the <style> tags    */
 }
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 90px;
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 16px;
+}
+
