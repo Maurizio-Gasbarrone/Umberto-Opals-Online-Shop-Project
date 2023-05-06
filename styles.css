@@ -142,6 +142,30 @@ DISCORD SECTION
 */
 
 #discord {
-  padding: 48px;
   background-color: #b9d1d2;
+}
+
+
+/* 
+
+CONTACT SECTION 
+
+*/
+
+#contact {
+  background-color: #decaf1;
+}
+
+form {
+  width: 100%;
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+input, textarea {
+  margin-bottom: 24px;
+  font-size: 20px;
+  padding: 6px 12px;
 }
