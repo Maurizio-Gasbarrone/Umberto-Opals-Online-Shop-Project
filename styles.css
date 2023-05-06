@@ -9,12 +9,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
-* {
-  padding: 0; /*                                              */
-  margin: 0; /* Do this for every CCS file at the start of it*/
-  box-sizing: border-box; /*                                              */
+/* Use the * selector this enables you to target all elements in your project.*/
+
+* {                                  
+  padding: 0;                        /*                                               */
+  margin: 0;                         /* Do this for every CCS file at the start of it */
+  box-sizing: border-box;            /*                                               */
   font-family: "Roboto", sans-serif; /* copy and paste this command font-family: 'Roboto', sans-serif; from */
-  /* Roboto-Google Font. this command is found under CSS rules to specify familes under the <style> tags    */
+  /* Roboto-Google Font. this command is found under CSS rules to specify familes under the <style> tags.   */
 }
 
 nav {
@@ -27,7 +29,7 @@ nav {
 }
 
 header {
-  background-color: #eadcff;
+  background-color: #d7c7ee;
   height: calc(100vh - 70px);
   padding: 24px;
   display: flex;
@@ -39,9 +41,9 @@ h1 {
   font-size: 40px;
 }
 
-.subheader {
-  font-size: 36px;
-  margin: 16px 0 24px o;
+.subheader {                /* We don't want this p changimg other p's in the project */
+  font-size: 36px;          /* by typing <p class="subheader> in the HTML and target  */
+  margin: 16px 0 24px o;    /* it like we have here .subheader{} in CSS.              */
 }
 
 button {
