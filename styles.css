@@ -1,22 +1,10 @@
-/* Go to Google and type Roboto and select Roboto - Google Fonts   */
-/* then select by pressing the + sign the following sizes 300,     */
-/* 400, 500 and Bold 700. Now select the radio button of @import   */
-/* and select all of the text in between the <style> ... </style>  */
-/* tags and paste it in the styles.css file and you will get the   */
-/* below link so now your web site will use this Font thru out it. */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
-/* Use the * selector this enables you to target all elements in your project.*/
-
 * {
-  padding: 0; /*                                               */
-  margin: 0; /* Do this for every CCS file at the start of it */
-  box-sizing: border-box; /*                                               */
-  font-family: "Roboto", sans-serif; /* copy and paste this command font-family: 'Roboto', sans-serif; from */
-  /* Roboto-Google Font. this command is found under CSS rules to specify familes under the <style> tags.   */
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+  font-family: "Roboto", sans-serif; 
 }
 
 nav {
@@ -42,9 +30,8 @@ h1 {
 }
 
 .subheader {
-  /* We don't want this p changimg other p's in the project */
-  font-size: 36px; /* by typing <p class="subheader> in the HTML and target  */
-  margin: 16px 0 24px 0; /* it like we have here .subheader{} in CSS.              */
+  font-size: 36px;
+  margin: 16px 0 24px 0;
 }
 
 button {
@@ -85,7 +72,8 @@ li {
 
 #about,
 #discord,
-#contact {
+#contact,
+#footer {
   padding: 48px 0;
 }
 
@@ -106,7 +94,6 @@ h2 {
 }
 
 .section__description {
-  /* The block is .section and the element is __description */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -168,4 +155,25 @@ input, textarea {
   margin-bottom: 24px;
   font-size: 20px;
   padding: 6px 12px;
+}
+
+/* 
+
+FOOTER SECTION 
+
+*/
+
+footer {
+  background-color: #aaf5ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  max-width: 480px;
+}
+
+.footer__links {
+  margin-bottom: 32px;
 }
