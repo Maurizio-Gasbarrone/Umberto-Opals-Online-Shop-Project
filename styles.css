@@ -11,10 +11,10 @@
 
 /* Use the * selector this enables you to target all elements in your project.*/
 
-* {                                  
-  padding: 0;                        /*                                               */
-  margin: 0;                         /* Do this for every CCS file at the start of it */
-  box-sizing: border-box;            /*                                               */
+* {
+  padding: 0; /*                                               */
+  margin: 0; /* Do this for every CCS file at the start of it */
+  box-sizing: border-box; /*                                               */
   font-family: "Roboto", sans-serif; /* copy and paste this command font-family: 'Roboto', sans-serif; from */
   /* Roboto-Google Font. this command is found under CSS rules to specify familes under the <style> tags.   */
 }
@@ -41,18 +41,19 @@ h1 {
   font-size: 72px;
 }
 
-.subheader {                /* We don't want this p changimg other p's in the project */
-  font-size: 36px;          /* by typing <p class="subheader> in the HTML and target  */
-  margin: 16px 0 24px 0;    /* it like we have here .subheader{} in CSS.              */
+.subheader {
+  /* We don't want this p changimg other p's in the project */
+  font-size: 36px; /* by typing <p class="subheader> in the HTML and target  */
+  margin: 16px 0 24px 0; /* it like we have here .subheader{} in CSS.              */
 }
 
 button {
-    background-color: #05c7cf;
-    color: white;
-    border: none;
-    padding: 8px 16px;
-    font-size: 24px;
-    cursor: pointer;
+  background-color: #05c7cf;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 a {
@@ -82,8 +83,6 @@ li {
   justify-content: center;
 }
 
-
-
 /* 
 
 ABOUT SECTION 
@@ -92,6 +91,7 @@ ABOUT SECTION
 
 #about {
   padding: 48px 0;
+  background-color: #eaf7b7;
 }
 
 h2 {
@@ -100,7 +100,32 @@ h2 {
   margin-bottom: 24px;
 }
 
-.section__description {     /* The block is .section and the element is __description */
+.section__description {
+  /* The block is .section and the element is __description */
   display: flex;
-  justify-content: center;align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__img--wrapper {
+  width: 40%;
+}
+
+img {
+  width: 100%;
+}
+
+.section__description--wrapper {
+  width: 60%;
+}
+
+.about__img--wrapper,
+.section__description--wrapper {
+  padding: 0 24px;
+}
+
+.section__description--para {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
 }
